@@ -10,3 +10,6 @@
 5-  [Code Challenge: Class 05](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/tree/linked-list)
 
 6- [Code Challenge: Class 06](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/tree/linked-list-insertions)
+
+7- [Code Challenge: Class 07](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/pull/3)
+
