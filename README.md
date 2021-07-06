@@ -13,3 +13,5 @@
 
 7- [Code Challenge: Class 07](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/pull/3)
 
+8- [Code Challenge: Class 08](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/tree/linked-list-zip)
+
