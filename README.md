@@ -25,3 +25,5 @@ Write a function called zip lists Arguments: 2 linked lists Return: Linked List,
 
 8- [Code Challenge: Class 08](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/tree/linked-list-zip)
 
+9- [Code Challenge: Class 09](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/pull/6/)
+
