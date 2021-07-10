@@ -6,12 +6,83 @@ class Node {
     this.next = next;
 
   }
+ 
 }
 
 class LinkedList {
   constructor() {
     this.head = null;
     this.size = 0;
+  }
+  peek() {
+    if(null || undefined){
+      return null;
+    }
+    return this.head;
+  }
+  push(item) {
+  
+    if (!item) {
+      throw new Error('NO THING');
+    }
+    this.head = new Node(item, this.head);
+    this.size = this.size + 1;
+    return  this.head.value; 
+  }
+  pop() {
+    let Size=this.size;
+    // console.log(this.head)
+    this.head.value= this.head && this.head.next.value ;
+    this.size=Size-1;
+    const item = this.head;
+    return item;
+
+  }
+  
+  enqueue(item) {
+    if (!item) {
+      throw new Error('NO THING');
+    }
+    this.head = new Node(item, this.head);
+    this.size = this.size + 1;
+    return  this.head.value; 
+  }
+  dequeue() {
+  
+    let dequeuevalue;
+   if (!this.head) {
+    console.log('NO THING');
+    return dequeuevalue;
+    }
+    for(let i=0;i<this.size-1;i++){
+      this.head=this.head.next
+      if (this.size==0){
+        throw new Error('error');
+      }
+      if(this.size==1){
+        let x=this.head.value;
+        this.head=null
+        return x; 
+      }
+      if(this.size==2){ 
+        let x=this.head.value;
+        this.head=null
+        return x;
+      }
+     
+      if(i==this.size-2){
+         let x=this.head.value;
+        this.head=null
+        return x;
+      }
+      
+ 
+    }
+   
+
+  }
+  peekqueue() {
+    return this.head[0];
   }
 
   insert(value) {
@@ -101,10 +172,27 @@ class LinkedList {
     return 'Exception';
   }
 
+
+}
+function palindrome(list){
+  let node = list.head;
+  const list2 = new LinkedList();
+  while(node){
+    list2.insert(node.value);
+    node = node.next;
+    
+  }
+ 
+  if(list.toString() == list2.toString())
+  { return true}
+  else{
+    return false
+  }
 }
 
 
 module.exports = {
   ll: LinkedList,
+  palindrome: palindrome,
   node: Node
 };

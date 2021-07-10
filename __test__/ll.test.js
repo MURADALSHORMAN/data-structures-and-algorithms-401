@@ -5,7 +5,27 @@ const linkedListMaster = require('../linked_list');
 const linkedList = linkedListMaster.ll;
 const Node = linkedListMaster.node;
 const zip = require('../JavaScript/linked_list').zip;
+const palindrome = require('../linked_list').palindrome;
 
+// describe('testing insert value function for linked list', () => {
+//   let node;
+//   beforeEach(() => {
+//     node = new Node();
+//   });
+
+//   it('return null on empty Stack', () => {
+//     expect(node.peek()).toBe(undefined);
+//   });
+//   // it('should return a linked list with a new node added', () => {
+  //   const ll = new linkedList;
+  //   ll.head = new Node(0);
+  //   ll.head.next = new Node(1);
+  //   ll.head.next.next = new Node(2);
+  //   ll.head.next.next.next = new Node(3);
+  //   ll.insert(4);
+  //   expect(ll.head.value).toEqual(4);
+  // });
+// });
 
 describe('testing linked list instantiation', () => {
   it('should return a linked list', () => {
@@ -13,6 +33,7 @@ describe('testing linked list instantiation', () => {
     expect(ll).toBeTruthy();
   });
 });
+
 
 describe('testing insert value function for linked list', () => {
   it('should return a linked list with a new node added', () => {
@@ -181,5 +202,26 @@ describe('testing linked list kthFromEnd function', () => {
     ll.insert(2);
     ll.insert(1);
     expect(ll.kthFromEnd(2)).toEqual(2);
+  });
+
+  describe('testing palindrome ', () => {
+    it('should return ture', () => {
+      const ll = new linkedList;
+      ll.insert(1);
+      ll.insert(3);
+      ll.insert(1);
+
+
+      expect(palindrome(ll)).toBeTruthy();
+    });
+    it('should return false', () => {
+      const ll = new linkedList;
+      ll.insert(3);
+      ll.insert(2);
+      ll.insert(1);
+
+      expect(palindrome(ll)).toBeFalsy()
+    });
+
   });
 });
