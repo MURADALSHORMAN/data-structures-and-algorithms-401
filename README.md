@@ -2,11 +2,13 @@
 
 
 # zip List
-Code Challenge 08
+Code Challenge 11
 
 # Challenge
-Write a function called zip lists Arguments: 2 linked lists Return: Linked List, zipped 
+Implement a Queue using two Stacks 
 
-![](/home/muradalshorman/data-structures-and-algorithms-401/challenge 88.JPG)
+the queue will mange by stack props push and pop and peek that every value adding in the stack should be have these props then we can deal with these props via the values of the stack
+
+![](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/stack-queue-pseudo/challenge%2011.png)
 
 
