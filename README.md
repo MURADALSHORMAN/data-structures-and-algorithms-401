@@ -1,8 +1,10 @@
 # data-structures-and-algorithms-401
 
 
-# zip List
+# stack-queue-pseudo
 Code Challenge 11
+
+# [Pull Request](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/pull/7)
 
 # Challenge
 Implement a Queue using two Stacks 
