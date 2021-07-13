@@ -8,6 +8,8 @@ Code Challenge 12
 # Challenge
 Create a class called AnimalShelter which holds only dogs and cats.
 
+![](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/stack-queue-animal-shelter/challenge%2012.JPG)
+
 
 
 
