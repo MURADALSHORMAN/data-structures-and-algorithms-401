@@ -1,9 +1,13 @@
 # data-structures-and-algorithms-401
 
-# zip List
-Code Challenge 08
+# stack-queue-animal-shelter
+Code Challenge 12
+
+# [Pull Request](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/pull/8)
 
 # Challenge
-Write a function called zip lists Arguments: 2 linked lists Return: Linked List, zipped 
+Create a class called AnimalShelter which holds only dogs and cats.
 
-![](/home/muradalshorman/data-structures-and-algorithms-401/challenge 88.JPG)
+
+
+
