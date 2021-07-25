@@ -106,6 +106,57 @@ class Node {
   
       return array;
     }
+    maxvalue() {
+      const array = [];
+      let maxNumber = 0;
+      const findmax = (node) => {
+        if (node.left) {
+          findmax(node.left);
+        }
+  
+        array.push(node.value);
+  
+        if (node.right) {
+          findmax(node.right);
+        }
+      };
+  
+      let current = this.root;
+      findmax(current);
+  
+      array.map(number => {
+        if (number > maxNumber) maxNumber = number;
+      })
+      
+      return maxNumber;
+  
+    }
+
+    minvalue() {
+      const array = [];
+      let minNumber = (1/0);
+      const findmin = (node) => {
+        if (node.left) {
+          findmin(node.left);
+        }
+  
+        array.push(node.value);
+  
+        if (node.right) {
+          findmin(node.right);
+        }
+      };
+  
+      let current = this.root;
+      findmin(current);
+  
+      array.map(number => {
+        if (number < minNumber) minNumber = number;
+      })
+      
+      return minNumber;
+  
+    }
 }
 
 
