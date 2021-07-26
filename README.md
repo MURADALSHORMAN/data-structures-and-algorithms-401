@@ -20,3 +20,5 @@
 11- [Code Challenge: Class 11](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/pull/7)
 
 12- [Code Challenge: Class 12](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/tree/stack-queue-animal-shelter)
+
+13- [Code Challenge: Class 12](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/pull/12/)
