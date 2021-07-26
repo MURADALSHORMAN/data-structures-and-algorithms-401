@@ -1,11 +1,13 @@
 # data-structures-and-algorithms-401
 
 
-# zip List
-Code Challenge 08
+# tree-breadth-first
+Code Challenge 17
 
 # Challenge
-Write a function called zip lists Arguments: 2 linked lists Return: Linked List, zipped 
+Write a function called breadth first
+Arguments: tree
+Return: list of all values in the tree, in the order they were encountered
 
 ![](/home/muradalshorman/data-structures-and-algorithms-401/challenge 88.JPG)
 
