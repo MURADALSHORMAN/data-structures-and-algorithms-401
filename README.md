@@ -9,7 +9,7 @@ Write a function called breadth first
 Arguments: tree
 Return: list of all values in the tree, in the order they were encountered
 
-![](/home/muradalshorman/data-structures-and-algorithms-401/challenge 88.JPG)
+![](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/tree-breadth-first/ch17.JPG)
 
 1 - [Code Challenge: Class 01](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/array-reverse/README.md)
 
