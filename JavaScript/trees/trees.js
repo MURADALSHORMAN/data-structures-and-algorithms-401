@@ -82,7 +82,43 @@ class Node {
       return array;
     }
   
+    breadth_First() {
 
+      let array = [];
+  
+      let travFun = (current, num) => {
+        if (!current) {
+          return null;
+        }
+  
+        if (!array[num]) {
+          array[num] = [current.value];
+        } else {
+          array[num].push(current.value);
+        }
+  
+        travFun(current.left, num + 1);
+        travFun(current.right, num + 1);
+      };
+  
+      travFun(this.root, 0);
+  
+      let flatArr = (array, res = []) => {
+  
+        for (let i = 0; i < array.length; i++) {
+          let value = array[i];
+          if (Array.isArray(value)) {
+            flatArr(value, res);
+          } else {
+            res[res.length] = value;
+          }
+        }
+        return res;
+      };
+  
+      return flatArr(array);
+    }
+  
 
 
     in_Order() {
