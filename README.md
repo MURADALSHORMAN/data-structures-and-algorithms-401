@@ -1,4 +1,14 @@
 # data-structures-and-algorithms-401
+
+
+# tree-max
+Code Challenge 16
+
+![](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/tree-max/ch16.JPG)
+
+# Challenge
+Find the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
 1 - [Code Challenge: Class 01](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/array-reverse/README.md)
 
 2 - [Code Challenge: Class 02](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/array-insert-shift/README.md)
