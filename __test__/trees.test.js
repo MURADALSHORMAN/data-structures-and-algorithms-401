@@ -65,4 +65,23 @@ describe('Tests binary tree tree search', () => {
 
     expect(postOrder).toEqual([5, 2, 9]);
   });
+
+  test('sucssesfuly replace the value by Fizz or Buzz or FizzBuzz', () => {
+
+    Tree.root = new bin_Tree.node(12);
+    Tree.root.left = new bin_Tree.node(3);
+    Tree.root.left.left = new bin_Tree.node(42);
+    Tree.root.left.right = new bin_Tree.node(10);
+    Tree.root.left.right.left = new bin_Tree.node(3);
+    Tree.root.left.right.right = new bin_Tree.node(7);
+
+    Tree.root.right = new bin_Tree.node(2);
+    Tree.root.right.left = new bin_Tree.node(26);
+    Tree.root.right.right = new bin_Tree.node(32);
+    Tree.root.right.right.left = new bin_Tree.node(14);
+    Tree.root.right.right.right = new bin_Tree.node(115);
+    const breadth = Tree.fizzBuzzFun(Tree);
+    let arr = breadth.pre_Order();
+    expect(arr).toEqual(['Fizz', 'Fizz', 'Fizz', 'Buzz', 'Fizz', '7', '2', '26', '32', '14', 'Buzz']);
+  });
 });

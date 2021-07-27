@@ -121,6 +121,35 @@ class Node {
   
 
 
+    fizzBuzzFun(tree) {
+    
+  
+      let newArray = tree;
+      const trave = (node) => {
+        
+        if (node.left) trave(node.left);
+        if (node.right) trave(node.right);
+  
+        if (node.value % 3 === 0 && node.value % 5 === 0) {
+          node.value = 'FizzBuzz';
+    
+        } else if (node.value % 3 === 0) {
+          node.value = 'Fizz';
+    
+        } else if (node.value % 5 === 0) {
+          node.value = 'Buzz';
+    
+        } else {
+          node.value = `${node.value}`;
+        }
+      }
+      
+      trave(newArray.root);
+  
+      return newArray;
+    }
+  
+
     in_Order() {
       const array = [];
   
