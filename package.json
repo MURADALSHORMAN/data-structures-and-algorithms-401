@@ -1,0 +1,27 @@
+{
+  "name": "data-structures-and-algorithms-401",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose --coverage",
+    "test-watch":"jest --verbose --coverage --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/issues"
+  },
+  "homepage": "https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.1.0",
+    "jest": "^27.0.6",
+    "mongoose": "^5.13.2"
+  }
+}
