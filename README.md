@@ -1,6 +1,6 @@
 # data-structures-and-algorithms-401
 
-# [pull request]()
+# [pull request](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/pull/13)
 # tree-fizz-buzz
 Code Challenge 18
 
@@ -15,6 +15,6 @@ If the value is divisible by 5, replace the value with “Buzz”
 If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
 If the value is not divisible by 3 or 5, simply turn the number into a String.
 
-![](/home/muradalshorman/data-structures-and-algorithms-401/challenge 88.JPG)
+![](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/tree-fizz-buzz/ch18.JPG)
 
 
