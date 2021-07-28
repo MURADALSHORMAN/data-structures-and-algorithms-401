@@ -1,4 +1,16 @@
 # data-structures-and-algorithms-401
+
+
+# tree-breadth-first
+Code Challenge 17
+
+# Challenge
+Write a function called breadth first
+Arguments: tree
+Return: list of all values in the tree, in the order they were encountered
+
+![](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/tree-breadth-first/ch17.JPG)
+
 1 - [Code Challenge: Class 01](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/array-reverse/README.md)
 
 2 - [Code Challenge: Class 02](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/array-insert-shift/README.md)
