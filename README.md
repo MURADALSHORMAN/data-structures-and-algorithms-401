@@ -1,4 +1,14 @@
 # data-structures-and-algorithms-401
+
+
+# zip List
+Code Challenge 08
+
+# Challenge
+Write a function called zip lists Arguments: 2 linked lists Return: Linked List, zipped 
+
+![](/home/muradalshorman/data-structures-and-algorithms-401/challenge 88.JPG)
+
 1 - [Code Challenge: Class 01](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/array-reverse/README.md)
 
 2 - [Code Challenge: Class 02](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/blob/array-insert-shift/README.md)
@@ -23,3 +33,4 @@
 
 13- [Code Challenge: Class 12](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/pull/12/)
 14- [Code Challenge: Class 18](https://github.com/MURADALSHORMAN/data-structures-and-algorithms-401/pull/13/)
+
